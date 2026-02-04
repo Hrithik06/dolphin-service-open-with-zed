@@ -13,7 +13,7 @@ Based on [Open with Code - OSS](https://github.com/StarterX4/dolphin-service-ope
 Either download through Dolphin's Context Menu Settings  
 *(Burger menu → Configure → Configure Dolphin → Context Menu → Download New Services → Search for "Zed")*
 
-or download the **.desktop** files manually from the [KDE Store](https://store.kde.org/p/YOUR_ID/) or this GitHub repo, and put them in `~/.local/share/kio/servicemenus/` for Plasma **6**, or `~/.local/share/kservices5/ServiceMenus/` for Plasma **5**.
+or download the **.desktop** files manually from the [KDE Store](https://store.kde.org/p/2346389/) or this GitHub repo, and put them in `~/.local/share/kio/servicemenus/` for Plasma **6**, or `~/.local/share/kservices5/ServiceMenus/` for Plasma **5**.
 
 ### Troubleshooting
 
