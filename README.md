@@ -1,2 +1,28 @@
-# dolphin-service-open-with-zed
-Dolphin context menu service for opening files/folders in Zed editor
+# Edit/Open with Zed
+
+Adding `Edit/Open with Zed` to the Dolphin context menu (depending on whether it is a file or a folder).
+
+Based on [Open with Code - OSS](https://github.com/StarterX4/dolphin-service-open-with-code) by [StarterX4](https://github.com/StarterX4)
+
+![File context menu](File.png)
+
+![Folder context menu](Dir.png)
+
+## Installation
+
+Either download through Dolphin's Context Menu Settings  
+*(Burger menu → Configure → Configure Dolphin → Context Menu → Download New Services → Search for "Zed")*
+
+or download the **.desktop** files manually from the [KDE Store](https://store.kde.org/p/YOUR_ID/) or this GitHub repo, and put them in `~/.local/share/kio/servicemenus/` for Plasma **6**, or `~/.local/share/kservices5/ServiceMenus/` for Plasma **5**.
+
+### Troubleshooting
+
+**If you get "You are not authorized to execute this file" error** or **if the context menu entries don't appear**, make the files executable:
+```bash
+chmod +x ~/.local/share/kio/servicemenus/edit-with-zed.desktop
+chmod +x ~/.local/share/kio/servicemenus/open-with-zed.desktop
+```
+Then restart Dolphin.
+## Credits
+
+Inspired by StarterX4's [Open with Code - OSS](https://github.com/StarterX4/dolphin-service-open-with-code)
